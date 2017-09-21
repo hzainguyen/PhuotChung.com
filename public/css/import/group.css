@@ -1,0 +1,18 @@
+#group_tour ul li .icon-location {margin-right: 10px; color: #c8232c;}
+#group_tour ul li {border-top: 1px solid #e4e6e8; padding: 10px 0;}
+#group_tour ul li:last-child {border-bottom: 1px solid #e4e6e8; margin-bottom: 40px;}
+#group_tour ul li .notification h3 {color: #005999}
+#group_tour ul li .notification h3:hover a {text-decoration: none;}
+#group_tour ul li .notification p {color: #919191;}
+#group_tour ul li .notification .pull-left, .pull-right {width: 50%;}
+#group_tour ul li .notification .tag-place {background-color: #E1ECF4; color: #39739d; padding: 5px 10px;}
+#group_tour ul li .notification .tag-place:hover {background-color: #cee0ed; cursor: pointer;}
+#group_tour ul li .member-avatar {margin-top: 40px; text-align: left;}
+#group_tour ul li .member-avatar .img-avatar {width: 40px; height:40px; margin-right: 5px;}
+#group_tour ul li .item-review {margin-top: 35px; text-align: center;}
+#group_tour ul li .item-review .number-review {font-size: 26px; font-weight: bold; color: #848d95;}
+#group_tour ul li .item-review .label-review {color: #848d95;}
+
+#group_tour .top-title {background: #ecf0f1; margin-right: 0; padding-top: 50px; padding-bottom: 25px;}
+#group_tour .top-title h1 {text-transform: uppercase;}
+#group_tour .top-title h1:after {content: ''; display: block; width: 2.5em; height: 3px; background: #ff4c2e; margin: 7px auto;}

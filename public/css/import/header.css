@@ -1,0 +1,194 @@
+/*HEADER*/
+/*body {font-family: "Roboto Regular";}*/
+.container-fluid{padding-left: none !important;}
+.header-fixed {
+    background-color:darkgreen;
+    /*background-color: rgba(0,0,0,0);*/
+    /*box-shadow:0 1px 1px #ccc;*/
+    padding: 20px 40px;
+    height: 80px;
+    color: #ffffff;
+    box-sizing: border-box;
+    top:-100px;
+
+    -webkit-transition:top 0.5s;
+    transition:top 0.5s;
+}
+
+.change-color-home {background-color: rgba(0,0,0,0);}
+
+.change-background {
+    background-color: darkgreen;
+    /*background-color: #a1c900;*/
+    /*border-bottom: 1px solid #29487d;*/
+    /*-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;*/
+}
+
+.header-fixed .header-limiter {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*  The header placeholder. It is displayed when the header is fixed to the top of the
+    browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder{
+    height: 80px;
+    display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+    float: left;
+    font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header-fixed .header-limiter h1 span {
+    color: rgb(161, 201, 0);
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+    font:16px Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    float: right;
+}
+
+.header-fixed .header-limiter nav a{
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 10px;
+    text-decoration:none;
+    color: #ffffff;
+    /*opacity: 0.9;*/
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-fixed .header-limiter nav a:hover{
+    opacity: 1;
+    border-bottom: 3px solid #fff;
+}
+
+.header-fixed .header-limiter nav a.selected {
+    color: rgb(161, 201, 0);
+    pointer-events: none;
+    opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+    padding: 10px 40px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+    display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+    line-height: 28px;
+    font-size: 13px;
+}
+
+#tab_nav {display: none;}
+/*#search_nav {display: none;}*/
+#main .resize_menu {display: none;}
+#main .search_menu_small {display: none;}
+/* Making the header responsive */
+
+.searchnav {height: 100%; width: 0; position: fixed; z-index: 10; top: 0; right: 0; background-color: rgba(69,132,112,.85); overflow-x: hidden; transition: 0.5s; padding-top: 60px;}
+.searchnav .closebtn {position: absolute; top: 0; left: 25px; font-size: 36px; margin-right: 50px; color: white;}
+.searchnav h3 {color: white; text-align: center;}
+.searchnav input {display: block; width: 90%; margin: 0 auto; border: 0; background: transparent; padding: 7px; text-align: center; font-size: 16px; color: #ffffff;}
+.searchnav #effect{display: block; width: 0; margin: 0 auto; height: 1px; background: #fff; transition: width 3s;}
+
+.searchnav #show_result {display: none; padding: 0 5%;}
+.searchnav #show_result ul {margin-top: 10px;}
+.searchnav #show_result ul li {margin-bottom: 7px;}
+.searchnav #show_result ul li div.item-search-image {padding-left: 0;}
+.searchnav #show_result ul li p.title{color: #fff;}
+#main {transition: margin-left .5s; transition: margin-right .5s;}
+
+#main .header-fixed .header-limiter .logo {width: 200px; height:70px; position: absolute; top: 0px; left: 60px;}
+.change-logo {height: 55px; width: 200px; top: -5px;}
+
+@media all and (max-width: 890px) {
+    #main .header-fixed .header-limiter .logo { left: 10px; }
+}
+
+@media all and (max-width: 768px) {
+    #main .header-fixed .header-limiter nav {display: none;}
+
+    #main .header-fixed{ padding: 0;}
+    /*header menu*/
+    #tab_nav {display: block;}
+    #search_nav {display: block;}
+    #main .header-fixed .header-limiter .resize_menu {display: block; float: left; width: 20%; text-align: left; height: 50px; padding-left: 15px; padding-top: 10px;}
+    #main .resize_menu:hover {cursor: pointer; opacity: 0.6}
+    #main .header-fixed .header-limiter .search_menu_small {display: block; float: right; width: 20%; text-align: right; height: 50px; padding-right: 15px; padding-top: 10px;}
+    .header-fixed {
+        padding: 20px 0;
+        height: 50px;
+    }
+    .header-fixed .header-limiter h1 {
+        float: left;
+        width: 60%;
+        /*margin: -8px 0 10px;*/
+        text-align: center;
+        font-size: 24px;
+        line-height: 50px !important;
+        /*line-height: 1;*/
+    }
+    .sidenav {height: 100%; width: 0;position: fixed; z-index: 10; top: 0; left: 0; background-color: #333333; overflow-x: hidden; transition: 0.5s; padding-top: 60px;}
+    .sidenav ul li {display: block; transition: 0.3s; padding: 15px 20px; border-bottom: 1px solid #1a1a1a;}
+    .sidenav ul li:hover {background: #666666;}
+    .sidenav ul li a {text-decoration: none; font-size: 18px; color: #bfbfbf; display: block; transition: 0.3s;}
+    .sidenav .closebtn {position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; color: white;}
+
+    #main .header-fixed .header-limiter .logo {left: 50%; margin-left: -100px; height: 50px;}
+}
+
+/*css for login form popup*/
+.login-or {position: relative;}
+.hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+}
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -30px;
+    background-color: #fff;
+    width: 60px;
+    text-align: center;
+}
+
+
