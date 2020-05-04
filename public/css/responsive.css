@@ -1,0 +1,210 @@
+/*RESPONSIVE*/
+@media screen and (max-width: 1024px) {
+    /*add-general-page*/
+    .section-detail .form-group label {
+        width: 20%;
+    }
+
+    .section-detail .form-group input[type="text"], .section-detail .form-group textarea, .wp-fileUpload, #wp-tag {
+        width: 80%;
+    }
+
+    #wp-btn-group {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /*add-general-page*/
+    .section .section-detail {
+        padding: 25px;
+    }
+
+    .section-detail .form-group label {
+        width: 25%;
+        padding: 0 20px 0 0;
+    }
+
+    .section-detail .form-group input[type="text"], .section-detail .form-group textarea, .wp-fileUpload, #wp-tag {
+        width: 75%;
+    }
+
+    .section-detail .form-group label:before {
+        right: 10px;
+    }
+
+    #wp-btn-group {
+        padding-left: 25%;
+    }
+
+    #list-upload li {
+        width: 23.5%;
+    }
+
+    #list-upload li:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*add-general-page*/
+    .section .section-detail {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main-content {
+        margin-left: 50px;
+    }
+
+    .section-detail .form-group label, .section-detail .form-group input[type="text"], .section-detail .form-group textarea, .wp-fileUpload, #wp-tag {
+        width: 100%;
+    }
+
+    .section-detail .form-group label {
+        text-align: left;
+    }
+
+    #wp-btn-group {
+        padding-left: 0;
+    }
+
+    .page-detail .section:nth-child(2) .section-detail .form-group:nth-child(5) {
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #wp-content {
+        overflow: hidden;
+    }
+
+    #sidebar {
+        position: absolute;
+        z-index: 100;
+    }
+
+    #add-new-header .dropdown-toggle {
+        padding: 16px 32px;
+    }
+
+    #add-new-header .dropdown-toggle #text, #add-new-header .dropdown-toggle:after {
+        display: none;
+    }
+
+    #add-new-header .dropdown-toggle:before {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .section-detail .form-group {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #header {
+        background: #f9fafc;
+    }
+
+    #wp-logo {
+        position: absolute;
+        z-index: 999;
+    }
+
+    #action-user {
+        width: 174px;
+    }
+
+    #add-new-header .dropdown-toggle {
+        padding: 16px;
+    }
+
+    #wrapper.hide-menu #header #add-new-header {
+        margin-left: 50px;
+    }
+
+    #main-content {
+        padding: 15px 10px;
+    }
+
+    #main-content .page-title {
+        font-size: 22px;
+    }
+
+    #dropdown-user .dropdown-toggle {
+        padding: 14px 10px 14px 14px;
+    }
+
+    select, #tag {
+        width: 100%;
+    }
+
+    .section .section-title {
+        padding: 15px 10px;
+    }
+
+    .section .section-detail {
+        padding: 10px;
+    }
+
+    .section-detail .form-group label {
+        padding-right: 0;
+    }
+
+    #fileUpload {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    #btn-seo, #btn-fileUpload {
+        margin: 10px 0px 0px 0px;
+        padding: 8px 10px;
+    }
+
+    #list-tags li .title, #most-tags {
+        font-size: 13px;
+        line-height: normal;
+        padding-top: 5px;
+    }
+
+    #wp-btn-group button {
+        font-size: 13px;
+        padding: 10px 18px;
+    }
+
+    #wp-btn-group button:before {
+        display: none;
+    }
+
+    #footer #copyright {
+        padding: 18px 14px;
+    }
+
+    #list-upload li {
+        width: 49%;
+    }
+
+    #list-upload li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    #list-upload li:nth-child(2n+1) {
+        margin-right: 2%;
+    }
+
+    #action-user #dropdown-noti .dropdown-menu {
+        width: 270px;
+        right: -122px !important;
+    }
+
+    #add-new-header .dropdown-menu {
+        left: 0;
+    }
+}
+

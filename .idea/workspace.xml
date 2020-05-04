@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b6f3df5-e001-4d69-a44a-0030704e945b" name="Default" comment="Fix bug &amp; reformat code">
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bQXiEDPR4lYkQjJ5EhzfJBlwBj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../HNL/pwa" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.scala.play.settings.Play2CompilerSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b6f3df5-e001-4d69-a44a-0030704e945b" name="Default" comment="" />
+      <created>1476060339273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476060339273</updated>
+      <workItem from="1476060342309" duration="4508000" />
+      <workItem from="1476070068441" duration="806000" />
+      <workItem from="1476098642878" duration="5196000" />
+      <workItem from="1476109229488" duration="7357000" />
+      <workItem from="1476442117952" duration="2056000" />
+      <workItem from="1476700651865" duration="21381000" />
+      <workItem from="1476749931071" duration="3001000" />
+      <workItem from="1476801801721" duration="64000" />
+      <workItem from="1588565417380" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2579" y="142" key="#XML" timestamp="1588565530086">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2579" y="142" key="#XML/0.40.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588565530086" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1588565503389">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.40.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588565503389" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1588565514678">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.40.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588565514678" />
+    <state x="2646" y="224" key="VCS.ChangeListViewerDialog" timestamp="1588566413219">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2646" y="224" key="VCS.ChangeListViewerDialog/0.40.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588566413219" />
+    <state x="2597" y="366" key="git4idea.ui.GitUnstashDialog" timestamp="1588566416304">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="366" key="git4idea.ui.GitUnstashDialog/0.40.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588566416304" />
+  </component>
+</project>

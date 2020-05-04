@@ -1,0 +1,124 @@
+video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+ 	/*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+	background-size: cover;
+	transition: 1s opacity;
+}
+.stopfade {opacity: .5;}
+
+#polina { 
+	position: absolute;
+	top: 15vh;
+	right: 5vw;
+
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; 
+	background: rgba(0,0,0,0.3);
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	/*margin:10rem 2rem;
+	float: right;*/
+	font-size: 1.5rem;
+}
+#polina h1 {font-size: 3rem; text-transform: uppercase; margin-top: 0; letter-spacing: .3rem;}
+#polina button {display: block; width: 80%; padding: .4rem; border: none; margin: 1rem auto; font-size: 1.3rem; background: rgba(255,255,255,0.23); color: #fff; border-radius: 3px; cursor: pointer; transition: .3s background;}
+#polina button:hover {background: rgba(0,0,0,0.5);}
+
+#polina a {display: inline-block; color: #fff; text-decoration: none; background:rgba(0,0,0,0.5); padding: .5rem; transition: .6s background; }
+#polina a:hover {background:rgba(0,0,0,0.9);}
+@media all and (max-width: 500px) { 
+	/*div{width:70%;} */
+}
+/*@media screen and (max-device-width: 800px) {
+	html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+	#bgvid { display: none; }
+}*/
+@media all and (max-width: 480px) { 
+	#polina{display: none;}
+}
+
+.full-img {width: 100%; height: auto; overflow: hidden;}
+
+#home_page #arrow {position: absolute; top: 85vh; font-size: 30px; color: #fff; text-align: center;}
+
+#home_page #arrow:hover {cursor: pointer;}
+
+/*#home_page #feature_place {margin-top: 100vh;}*/
+#home_page .top-title {background: #ecf0f1; margin-right: 0; padding-top: 50px; padding-bottom: 25px;}
+#home_page .top-title h1 {text-transform: uppercase;}
+#home_page .top-title h1:after {content: ''; display: block; width: 3em; height: 3px; background: #ff4c2e; margin: 7px auto;}
+
+#home_page .circle-info {width: 70%; margin: 0 auto;}
+#home_page .circle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+#home_page .circle-info {margin-bottom: 40px !important;}
+#home_page .circle .circle-1, .circle-2, .circle-3, .circle-4 {
+	color: #666 !important;
+	font-weight: 800;
+	font-size: 2.333em;
+}
+#home_page .circle .circle-label {
+	color: #999;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+@media all and (max-width: 768px) { 
+	#home_page .feature-item {width: 50%; margin: 0 auto;}
+}
+@media all and (max-width: 600px) { 
+	#home_page .feature-item {width: 70%; margin: 0 auto;}
+}
+@media all and (max-width: 480px) { 
+	#home_page .feature-item {width: 80%; margin: 0 auto;}
+}
+@media all and (max-width: 400px) { 
+	#home_page .feature-item {width: 100%; margin: 0 auto;}
+}
+
+#home_page #home_background {width: 100%; height: 100vh; position: relative;}
+#home_page #home_background h1 {text-align: center; font-size: 60px; text-shadow: 0 2px 3px rgba(0,0,0,.4); font-weight: 300;}
+#home_page #home_background #button_navi .button-navi {position: absolute; top: 60vh; text-align: center;}
+#home_page #home_background #button_navi .button-one {left: 30vw;}
+#home_page #home_background #button_navi .button-two {right: 30vw;}
+#home_page #home_background #button_navi .button-navi a {display: block; padding: 10px; background: #4386fc; width: 200px; text-decoration: none; color: #fff; font-size: 20px;}
+#home_page #home_background #button_navi .button-navi a:hover {background: #2263d6;}
+@media all and (max-width: 1100px) { 
+	#home_page #home_background #button_navi .button-one {left: 25vw;}
+	#home_page #home_background #button_navi .button-two {right: 25vw;}
+}
+@media all and (max-width: 900px) { 
+	#home_page #home_background #button_navi .button-one {left: 20vw;}
+	#home_page #home_background #button_navi .button-two {right: 20vw;}
+}
+@media all and (max-width: 760px) { 
+	#home_page #home_background #button_navi .button-one {left: 15vw;}
+	#home_page #home_background #button_navi .button-two {right: 15vw;}
+}
+@media all and (max-width: 620px) { 
+	#home_page #home_background #button_navi .button-one {left: 10vw;}
+	#home_page #home_background #button_navi .button-two {right: 10vw;}
+}
+@media all and (max-width: 560px) { 
+	#home_page #home_background #button_navi .button-navi {left: 50%; margin-left: -100px}
+	#home_page #home_background #button_navi .button-two {top: 72vh;}
+}
+@media all and (max-width: 480px) { 
+	#home_page #home_background h1 {font-size: 50px;}
+}
